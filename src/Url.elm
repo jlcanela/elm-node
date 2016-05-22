@@ -1,6 +1,4 @@
-module Url
-  ( resolve, join
-  ) where
+module Url exposing ( resolve, join  ) 
 
 {-| Url
 

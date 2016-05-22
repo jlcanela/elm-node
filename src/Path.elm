@@ -1,7 +1,5 @@
-module Path
-  ( normalize, join, resolve, isAbsolute, relative
-  , basename, extname, sep, delimiter
-  ) where
+module Path exposing ( normalize, join, resolve, isAbsolute, relative
+  , basename, extname, sep, delimiter  ) 
 
 {-| This module contains utilities for handling and transforming file paths.
 Almost all these methods perform only string transformations.

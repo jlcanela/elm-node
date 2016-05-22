@@ -1,6 +1,4 @@
-module Console
-  ( log, error, fatal
-  ) where
+module Console exposing (log, error, fatal) 
 
 {-| Console
 

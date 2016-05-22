@@ -1,11 +1,9 @@
-module Http
-  ( Error(..), get, serve, getURL, sendResponse, Request, Response
-  ) where
+module Http exposing ( Error(..), get, serve, getURL, sendResponse, Request, Response )
 
 {-|
 
 @docs Error
-@docs get, serve, getURL, sendResponse
+@docs get, serve, getURL, sendResponse, Request, Response
 
 -}
 
@@ -38,7 +36,7 @@ get url =
 {-| serve
 -}
 serve : Int -> (Request -> Response -> Task x a) -> Task x ()
-serve prt taskFunction = 
+serve prt taskFunction =
   Native.Http.serve prt taskFunction
 
 

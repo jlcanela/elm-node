@@ -1,7 +1,5 @@
-module Process
-  ( args, argv, execPath, execArgv, exec, exit, pid
-  , version
-  ) where
+module Process2 exposing ( args, argv, execPath, execArgv, exec, exit, pid
+  , version  )
 
 {-| Process
 

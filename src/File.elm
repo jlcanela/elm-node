@@ -1,6 +1,4 @@
-module File
-  ( Error(..), read, write, lstat
-  ) where
+module File exposing ( Error(..), read, write, lstat ) 
 
 {-| File
 
